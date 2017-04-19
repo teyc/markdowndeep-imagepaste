@@ -1,6 +1,9 @@
-#MarkdownDeep demo with pasting image from the clipboard
+MarkdownDeep demo with pasting image from the clipboard
+--------------------------------------------------------
 
 ## Live demo
+
+See https://rawgit.com/teyc/markdowndeep-imagepaste/master/index.html
 
 Note the live demo does not upload image to a server,
 as you are looking at a static site.
