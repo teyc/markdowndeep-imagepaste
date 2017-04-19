@@ -72,7 +72,7 @@ function MarkdownImageUploader(el, options) {
         this._mdd = $(el).data("mdd");
         this.onPaste = onPaste;
         this.showModal = showModal;
-        this._el.onPaste = this.onPaste.bind(this);
+        this._el.addEventListener('paste',  this.onPaste.bind(this));
     }
 
     activate.call(this);
