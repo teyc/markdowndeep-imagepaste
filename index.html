@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<body>
+    <link rel="stylesheet" href="node_modules/markdowndeep/clientSide/mdd_styles.css"></link>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/markdowndeep/clientSide/MarkdownDeep.js"></script>
+    <script src="node_modules/markdowndeep/clientSide/MarkdownDeepEditor.js"></script>
+    <script src="node_modules/markdowndeep/clientSide/MarkdownDeepEditorUI.js"></script>
+    <textarea class="mdd_editor" id="editor1">#Heading
+
+    export class Demo {
+        constructor(public lang: string) {
+
+        }
+    }
+</textarea>
+    <textarea class="mdd_editor" id="editor2">#Heading</textarea>
+    <script>
+        $(function() {
+            $("textarea").MarkdownDeep().attr("rows", 10);
+            $(".mdd_preview").height("180px");
+        })
+    </script>
+</body>
+</html>

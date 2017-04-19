@@ -1,0 +1,14 @@
+{
+  "name": "MarkdownDeepImagePaste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chui Tey <teyc@cognoware.com>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "markdowndeep": "^1.6.8"
+  }
+}
